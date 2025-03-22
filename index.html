@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>English Janala</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .poppins-regular{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.hind-siliguri-regular {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+    </style>
 </head>
+
+
 <body>
-    <h1>Hello world!!!!!!</h1>
+    
+    <section class="w-11/12 mx-auto flex justify-between items-center">
+
+        <div>
+            <h1 class="text-4xl poppins-bold"> <span class="text-[#00BCFF]">English</span> is Easy</h1>
+        <p class="hind-siliguri-regular w-full text-xl my-6">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা <br> আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+        <fieldset class="fieldset w-xs pb-4 rounded-box">
+            <input id="name" type="name" class="input mb-2" placeholder="Enter Your Name" />
+            <input id="pass" type="password" class="input" placeholder="Password" />
+            
+          </fieldset>
+          <button id="login-btn" class="text-left bg-[#422AD5] text-white rounded-sm px-4 py-2">Get Started</button>
+        </div>
+
+        <div>
+            <img  src="./assets/hero-student.png" alt="">
+        </div>
+    </section>
+
+    <script src="./login.js"></script>
 </body>
 </html>
